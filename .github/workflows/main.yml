@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: xanderhendriks-uts/action-build-contiki@v1
+      uses: xanderhendriks-uts/action-build-contiki@v1.1
       with:
         who-to-greet: 'Contiki'
     # Use the output from the `hello` step
